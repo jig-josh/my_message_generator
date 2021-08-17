@@ -1,0 +1,48 @@
+.bigContainerMessage {
+    background: radial-gradient(circle, rgba(161, 162, 164, 1) 0%, rgba(252, 70, 107, 1) 65%);
+    border-radius: 50px;
+    display: table-cell;
+    width: 500px;
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+}
+
+.messageDisplay {
+    background-color: blue;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.messageDisplay p {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.myButtonStr {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
